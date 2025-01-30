@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice Game</title>
+</head>
+<body>
+    <h1>Dicee Game</h1>
+    <div class="main">        
+        <div class="new hide">
+            <h2></h2>
+            <p id="final-point1"></p>
+            <p id="final-point2"></p>
+            <button id="newbtn">New Game</button>
+        </div>     
+        <div class="submain">
+            <div class="container">
+                <h2>Click The Button</h2>
+                <p>Maximum Clicks: 10</p>
+                <p>Player With Maximum Point Will Win!</p>
+            </div>
+            <div class="dice">
+                <div class="dice1">
+                    <img src="images/dice6.png" alt="">
+                    <p class="player1">Player 1: 0</p>
+                </div>
+                <div class="dice2">
+                    <img src="images/dice6.png" alt="">
+                    <p class="player2">Player 2: 0</p>
+                </div>
+            </div>
+            <button id="click">Click</button>
+            <p id="clickCount">Click Count: 0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
