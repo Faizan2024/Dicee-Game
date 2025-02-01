@@ -39,7 +39,7 @@ newbtn.addEventListener("click", function() {
 function updateUI() {
     document.querySelector(".player1").innerText = player1Name + ": " + player1point;
     document.querySelector(".player2").innerText = player2Name + ": " + player2point;
-    document.querySelector("#clickCount").innerText = "Click Count: " + rollCount;
+    document.querySelector("#clickCount").innerText = "Click Counts: " + rollCount;
 }
 
 let rollCount = 0;
