@@ -69,7 +69,7 @@ function play() {
             updateUI();
 
             if (rollCount === 10) {
-                // showWinner();
+                showWinner();
             }
         }
     });
